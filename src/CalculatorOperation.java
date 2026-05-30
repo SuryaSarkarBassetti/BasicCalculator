@@ -33,6 +33,8 @@ public class CalculatorOperation {
 
     public void test(){
         System.out.printf("");
+    public static void test2(){
+        int a=4;
     }
 
 }
