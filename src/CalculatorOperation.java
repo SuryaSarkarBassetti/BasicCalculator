@@ -31,4 +31,8 @@ public class CalculatorOperation {
         return a + a;
     }
 
+    public void test(){
+        System.out.printf("");
+    }
+
 }
