@@ -31,4 +31,8 @@ public class CalculatorOperation {
         return a + a;
     }
 
+    public static void test2(){
+        int a=4;
+    }
+
 }
