@@ -28,13 +28,14 @@ public class CalculatorOperation {
     }
 
     public static double add(double a, double b) {
-        return a + a;
+        return a + b;
     }
 
     public void test(){
         System.out.printf("");
+    }
+
     public static void test2(){
         int a=4;
     }
-
 }
