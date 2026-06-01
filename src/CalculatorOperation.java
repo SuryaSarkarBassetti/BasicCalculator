@@ -37,7 +37,7 @@ public class CalculatorOperation {
     }
 
     public static double add(double a, double b) {
-        return a + b; // Fixed: now correctly returns a + b
+        return a + b;
     }
 
     public static boolean isEven(double a) {
