@@ -5,7 +5,7 @@ public class CalculatorOperation {
             case "-", "subtract" -> 1;
             case "*", "multiply" -> 1;
             case "/", "divide" -> 1;
-            case "%", "mod", "modulus" -> 1;
+            case "%", "mod", "modulus" -> modulus(a, b);
             case "avg", "average" -> 1;
             case "max", "maximum" -> 1;
             case "min", "minimum" -> 1;
@@ -33,6 +33,9 @@ public class CalculatorOperation {
 
     public static double subtraction(double a, double b) {
         return a - b;
+    }
+    public static double modulus(double a, double b) {
+        return a % b;
     }
 
 }
