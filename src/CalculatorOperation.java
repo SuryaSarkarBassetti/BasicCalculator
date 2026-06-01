@@ -17,9 +17,10 @@ public class CalculatorOperation {
         };
     }
 
+    public static double calculate(double a, double b, String op) {
     public static double calculate(double number, String op) {
         return switch (op.toLowerCase()) {
-            case "square" -> 1;
+            case "square" -> square(a);
             case "cube" -> 1;
             case "abs", "absolute", "absolutevalue", "absolute value" -> absoluteValue(number);
             case "even" -> 1;
@@ -47,6 +48,11 @@ public class CalculatorOperation {
         return a + a;
     }
 
+    // This Is Square Method
+    public static double square(double a) {
+        return a * a;
+    }
+
     public static double absoluteValue(double number) {
         return Math.abs(number);
     }
@@ -54,12 +60,20 @@ public class CalculatorOperation {
     
     public static double division(double a, double b) {
         return a / b;
-
+    }
     // Subtraction Between Two Number
     public static double subtraction(double a, double b) {
         return a - b;
- main
+ 
     }
+    // Avarage Between Two Number
+     public static double avarage(double a, double b) {
+        return (a + b)/2;
+    }
+ main
+    }//impiliment multiply
+    public static double multiply(double a, double b) {
+        return a * b;
 
     //Implementation of ODD Number Checker
     public static boolean checkOddNum(int num){
@@ -80,5 +94,16 @@ public class CalculatorOperation {
     return min;
     }
 
+     //Calculates the cube of a number
+    public static double cube(double a) {
+        return a * a * a;
+    }
+    
+ //Implementation of EVEN Number Checker
+
+ public static boolean isEven(double a) {
+        return (a % 1 == 0) && ((int) a % 2 == 0);
+    }
 }
+
 }
