@@ -31,4 +31,11 @@ public class CalculatorOperation {
         return a + a;
     }
 
+    public static boolean checkOddNum(int num){
+        if(num % 2 != 0){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
