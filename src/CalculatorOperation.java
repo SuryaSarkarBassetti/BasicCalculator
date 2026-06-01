@@ -10,19 +10,16 @@ public class CalculatorOperation {
             case "avg", "average" -> 1;
             case "max", "maximum" -> 1;
             case "min", "minimum" -> 1;
-            case "percentage", "percent" -> 1 ;
+            case "percentage", "percent" -> 1;
             default -> throw new IllegalArgumentException("Unknown operation. Use add, subtract, multiply, divide, modulus, average, maximum, minimum, or percentage.");
         };
     }
 
-    public static double calculate(double a, String op) {
+    public static double calculate(double number, String op) {
         return switch (op.toLowerCase()) {
             case "square" -> 1;
             case "cube" -> 1;
-            
-          
-            case "abs", "absolute", "absolutevalue", "absolute value" -> Math.abs(a);
-            
+            case "abs", "absolute", "absolutevalue", "absolute value" -> absoluteValue(number);
             case "even" -> 1;
             case "odd" -> 1;
             case "positive" -> 1;
@@ -33,5 +30,9 @@ public class CalculatorOperation {
 
     public static double add(double a, double b) {
         return a + a;
+    }
+
+    public static double absoluteValue(double number) {
+        return Math.abs(number);
     }
 }
