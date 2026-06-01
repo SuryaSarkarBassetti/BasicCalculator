@@ -60,7 +60,7 @@ public class CalculatorOperation {
     
     public static double division(double a, double b) {
         return a / b;
-
+    }
     // Subtraction Between Two Number
     public static double subtraction(double a, double b) {
         return a - b;
@@ -83,11 +83,26 @@ public class CalculatorOperation {
             return false;
         }
     }
+    //Addition of Minimum Number Checker
+    public static int minimumNumberAdd(int num[]){
+        int min = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+        if (numbers[i] < min) {
+            min = numbers[i]; 
+        }
+    }
+    return min;
+    }
 
 // Implementation of Negative Number Checker
     public static boolean CheckNumberisNegative(double number) {
         return number < 0;
     }
+     //Calculates the cube of a number
+    public static double cube(double a) {
+        return a * a * a;
+    }
+    
  //Implementation of EVEN Number Checker
 
  public static boolean isEven(double a) {
