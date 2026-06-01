@@ -64,6 +64,12 @@ public class CalculatorOperation {
     // Subtraction Between Two Number
     public static double subtraction(double a, double b) {
         return a - b;
+ 
+    }
+    // Avarage Between Two Number
+     public static double avarage(double a, double b) {
+        return (a + b)/2;
+    }
  main
     }//impiliment multiply
     public static double multiply(double a, double b) {
@@ -84,4 +90,5 @@ public class CalculatorOperation {
         return (a % 1 == 0) && ((int) a % 2 == 0);
     }
 }
+
 }
