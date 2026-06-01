@@ -60,7 +60,7 @@ public class CalculatorOperation {
     
     public static double division(double a, double b) {
         return a / b;
-
+    }
     // Subtraction Between Two Number
     public static double subtraction(double a, double b) {
         return a - b;
@@ -84,6 +84,11 @@ public class CalculatorOperation {
         }
     }
 
+     //Calculates the cube of a number
+    public static double cube(double a) {
+        return a * a * a;
+    }
+    
  //Implementation of EVEN Number Checker
 
  public static boolean isEven(double a) {
