@@ -19,7 +19,7 @@ public class CalculatorOperation {
             case "square" -> 1;
             case "cube" -> 1;
             case "abs", "absolute", "absolutevalue", "absolute value" -> 1;
-            case "even" -> 1;
+            case "even" -> isEven(a) ? 1.0 : 0.0; // Updated to use your even number check method
             case "odd" -> 1;
             case "positive" -> 1;
             case "negative" -> 1;
@@ -31,4 +31,7 @@ public class CalculatorOperation {
         return a + a;
     }
 
+    public static boolean isEven(double a) {
+        return (a % 1 == 0) && ((int) a % 2 == 0);
+    }
 }
