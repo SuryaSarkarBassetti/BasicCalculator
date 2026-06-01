@@ -36,9 +36,19 @@ public class CalculatorOperation {
         };
     }
 
-    public static double add(double a, double b) {
+        public static double add(double a, double b) {
         return a + b;
     }
+
+    public static double division(double a, double b) {
+        if (b == 0) throw new IllegalArgumentException("Division by zero error.");
+        return a / b;
+    }
+
+    public static double subtraction(double a, double b) {
+        return a - b;
+    }
+
 
     public static boolean isEven(double a) {
         return (a % 1 == 0) && ((int) a % 2 == 0);
