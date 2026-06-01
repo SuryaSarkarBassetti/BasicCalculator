@@ -17,9 +17,10 @@ public class CalculatorOperation {
         };
     }
 
+    public static double calculate(double a, double b, String op) {
     public static double calculate(double number, String op) {
         return switch (op.toLowerCase()) {
-            case "square" -> 1;
+            case "square" -> square(a);
             case "cube" -> 1;
             case "abs", "absolute", "absolutevalue", "absolute value" -> absoluteValue(number);
             case "even" -> 1;
@@ -45,6 +46,11 @@ public class CalculatorOperation {
         return (a / b) * 100;
     public static double add(double a, double b) {
         return a + a;
+    }
+
+    // This Is Square Method
+    public static double square(double a) {
+        return a * a;
     }
 
     public static double absoluteValue(double number) {
