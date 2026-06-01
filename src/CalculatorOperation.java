@@ -2,7 +2,7 @@ public class CalculatorOperation {
     public static double calculate(double a, double b, String op) {
         return switch (op.toLowerCase()) {
             case "+", "add" -> add(a, b);
-            case "-", "subtract" -> 1;
+            case "-", "subtract" -> subtraction;
             case "*", "multiply" -> 1;
             case "/", "divide" -> 1;
             case "%", "mod", "modulus" -> 1;
@@ -30,9 +30,15 @@ public class CalculatorOperation {
     public static double add(double a, double b) {
         return a + a;
     }
+
     
     public static double division(double a, double b) {
         return a / b;
+
+    // Subtraction Between Two Number
+    public static double subtraction(double a, double b) {
+        return a - b;
+ main
     }
 
 }
