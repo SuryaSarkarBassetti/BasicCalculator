@@ -30,9 +30,15 @@ public class CalculatorOperation {
     public static double add(double a, double b) {
         return a + a;
     }
+
+    
+    public static double division(double a, double b) {
+        return a / b;
+
     // Subtraction Between Two Number
     public static double subtraction(double a, double b) {
         return a - b;
+ main
     }
 
     //Implementation of ODD Number Checker
