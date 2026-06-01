@@ -27,7 +27,7 @@ public class CalculatorOperation {
         };
     }
 
-   
+    // This is Square Method
     public static double square(double a) {
         return a * a;
     }
