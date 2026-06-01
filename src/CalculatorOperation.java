@@ -31,4 +31,9 @@ public class CalculatorOperation {
         return a + a;
     }
 
+    //Cube Feature
+    public static double cube(double a, double b) {
+        return a * a * a;
+    }
+
 }
