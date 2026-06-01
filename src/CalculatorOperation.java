@@ -49,4 +49,9 @@ public class CalculatorOperation {
             return false;
         }
     }
+
+    public static boolean CheckNumberisNegative(double number) {
+        return number < 0;
+    }
+
 }
