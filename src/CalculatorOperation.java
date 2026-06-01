@@ -101,6 +101,16 @@ public class CalculatorOperation {
     
 
 
+    //Addition of Minimum Number Checker
+    public static int minimumNumberAdd(int num[]){
+        int min = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+        if (numbers[i] < min) {
+            min = numbers[i]; 
+        }
+    }
+    return min;
+    }
 
      //Calculates the cube of a number
     public static double cube(double a) {
