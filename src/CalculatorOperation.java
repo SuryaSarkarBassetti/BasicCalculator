@@ -16,7 +16,7 @@ public class CalculatorOperation {
 
     public static double calculate(double a, double b, String op) {
         return switch (op.toLowerCase()) {
-            case "square" -> square(a, b);
+            case "square" -> square(a);
             case "cube" -> 1;
             case "abs", "absolute", "absolutevalue", "absolute value" -> 1;
             case "even" -> 1;
@@ -30,8 +30,8 @@ public class CalculatorOperation {
     public static double add(double a, double b) {
         return a + a;
     }
-    public static double square(double a, double b) {
-        return a * b;
+    public static double square(double a) {
+        return a * a;
     }
 
 }
