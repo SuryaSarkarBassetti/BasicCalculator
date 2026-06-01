@@ -37,5 +37,6 @@ public class CalculatorOperation {
      
      public static double percentage(double a, double b) {
         return (a / b) * 100;
+        // system.out.println(a + " is " + percentage(a, b) + "% of " + b);
     }
 }
