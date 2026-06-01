@@ -1,7 +1,7 @@
 public class CalculatorOperation {
     public static double calculate(double a, double b, String op) {
         return switch (op.toLowerCase()) {
-            case "+", "add" -> add(a, b);
+            case "+", "add" -> 1;
             case "-", "subtract" -> 1;
             case "*", "multiply" -> 1;
             case "/", "divide" -> 1;
@@ -27,9 +27,7 @@ public class CalculatorOperation {
         };
     }
 
-    public static double add(double a, double b) {
-        return a + a;
-    }
+   
     public static double square(double a) {
         return a * a;
     }
