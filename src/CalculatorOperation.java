@@ -43,6 +43,7 @@ public class CalculatorOperation {
     //Percentage Method
      public static double percentage(double a, double b) {
         return (a / b) * 100;
+     }
     public static double add(double a, double b) {
         return a + a;
     }
@@ -53,12 +54,11 @@ public class CalculatorOperation {
 }
     
     public static double division(double a, double b) {
-        return a / b;
+        return a / b;}
 
     // Subtraction Between Two Number
     public static double subtraction(double a, double b) {
         return a - b;
- main
     }
 
     //Implementation of ODD Number Checker
@@ -69,5 +69,18 @@ public class CalculatorOperation {
             return false;
         }
     }
-}
-}
+    
+        
+        public static double Positivecheck(double num){
+        if (num > 0) {
+            System.out.println("The number is positive" +num);
+        } else if (num < 0) {
+            System.out.println("The number is negative" +num);
+        } else {
+            System.out.println("The number is ZERO.");
+        }
+
+        
+    
+
+
