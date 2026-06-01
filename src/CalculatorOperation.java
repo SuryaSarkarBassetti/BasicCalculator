@@ -31,4 +31,8 @@ public class CalculatorOperation {
         return a + a;
     }
 
+    public static double subtraction(double a, double b) {
+        return a - b;
+    }
+
 }
