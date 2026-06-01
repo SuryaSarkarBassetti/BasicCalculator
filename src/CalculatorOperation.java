@@ -31,6 +31,7 @@ public class CalculatorOperation {
         return a + a;
     }
 
+    //Implementation of ODD Number Checker
     public static boolean checkOddNum(int num){
         if(num % 2 != 0){
             return true;
