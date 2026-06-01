@@ -77,5 +77,11 @@ public class CalculatorOperation {
             return false;
         }
     }
+
+ //Implementation of EVEN Number Checker
+
+ public static boolean isEven(double a) {
+        return (a % 1 == 0) && ((int) a % 2 == 0);
+    }
 }
 }
