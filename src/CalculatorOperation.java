@@ -1,56 +1,79 @@
 public class CalculatorOperation {
+
     public static double calculate(double a, double b, String op) {
         return switch (op.toLowerCase()) {
             case "+", "add" -> add(a, b);
-            case "-", "subtract" -> a - b;
-            case "*", "multiply" -> a * b;
-            case "/", "divide" -> {
-                if (b == 0) throw new IllegalArgumentException("Division by zero error.");
-                yield a / b;
-            }
-            case "%", "mod", "modulus" -> {
-                if (b == 0) throw new IllegalArgumentException("Modulus by zero error.");
-                yield a % b;
-            }
-            case "avg", "average" -> (a + b) / 2.0;
-            case "max", "maximum" -> Math.max(a, b);
-            case "min", "minimum" -> Math.min(a, b);
-            case "percentage", "percent" -> {
-                if (b == 0) throw new IllegalArgumentException("Total cannot be zero.");
-                yield (a / b) * 100.0;
-            }
-            default -> throw new IllegalArgumentException("Unknown operation.");
+            case "-", "subtract" -> 1;
+            case "+", "add" -> add(a, b);
+            case "-", "subtract" -> subtraction;
+            case "*", "multiply" -> 1;
+            case "/", "divide" -> 1;
+            case "%", "mod", "modulus" -> 1;
+            case "avg", "average" -> 1;
+            case "max", "maximum" -> 1;
+            case "min", "minimum" -> 1;
+            case "percentage", "percent" -> 1;
+            default -> throw new IllegalArgumentException("Unknown operation. Use add, subtract, multiply, divide, modulus, average, maximum, minimum, or percentage.");
         };
     }
 
-    public static double calculate(double a, String op) {
+    public static double calculate(double number, String op) {
         return switch (op.toLowerCase()) {
-            case "square" -> a * a;
-            case "cube" -> a * a * a;
-            case "abs", "absolute", "absolutevalue", "absolute value" -> Math.abs(a);
-            case "even" -> isEven(a) ? 1.0 : 0.0;
-            case "odd" -> !isEven(a) ? 1.0 : 0.0;
-            case "positive" -> a > 0 ? 1.0 : 0.0;
-            case "negative" -> a < 0 ? 1.0 : 0.0;
-            default -> throw new IllegalArgumentException("Unknown operation.");
+            case "square" -> 1;
+            case "cube" -> 1;
+            case "abs", "absolute", "absolutevalue", "absolute value" -> absoluteValue(number);
+            case "even" -> 1;
+            case "odd" -> 1;
+            case "positive" -> 1;
+            case "negative" -> 1;
+            default -> throw new IllegalArgumentException("Unknown operation. Use square, cube, abs, even, odd, positive, or negative.");
         };
     }
 
-        public static double add(double a, double b) {
+    //Add Method
+    public static double add(double a, double b) {
         return a + b;
     }
 
-    public static double division(double a, double b) {
-        if (b == 0) throw new IllegalArgumentException("Division by zero error.");
-        return a / b;
-    }
-
+    //Subtract Method
     public static double subtraction(double a, double b) {
         return a - b;
     }
+    
+    //Percentage Method
+     public static double percentage(double a, double b) {
+        return (a / b) * 100;
+    public static double add(double a, double b) {
+        return a + a;
+    }
 
+    public static double absoluteValue(double number) {
+        return Math.abs(number);
+    }
+}
+    
+    public static double division(double a, double b) {
+        return a / b;
 
-    public static boolean isEven(double a) {
+    // Subtraction Between Two Number
+    public static double subtraction(double a, double b) {
+        return a - b;
+ main
+    }
+
+    //Implementation of ODD Number Checker
+    public static boolean checkOddNum(int num){
+        if(num % 2 != 0){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+ //Implementation of EVEN Number Checker
+
+ public static boolean isEven(double a) {
         return (a % 1 == 0) && ((int) a % 2 == 0);
     }
+}
 }
