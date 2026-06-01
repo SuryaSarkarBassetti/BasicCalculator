@@ -112,6 +112,10 @@ public class CalculatorOperation {
     return min;
     }
 
+// Implementation of Negative Number Checker
+    public static boolean CheckNumberisNegative(double number) {
+        return number < 0;
+    }
      //Calculates the cube of a number
     public static double cube(double a) {
         return a * a * a;
