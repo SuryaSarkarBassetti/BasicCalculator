@@ -1,4 +1,5 @@
 public class CalculatorOperation {
+
     public static double calculate(double a, double b, String op) {
         return switch (op.toLowerCase()) {
             case "+", "add" -> add(a, b);
@@ -18,7 +19,10 @@ public class CalculatorOperation {
         return switch (op.toLowerCase()) {
             case "square" -> 1;
             case "cube" -> 1;
-            case "abs", "absolute", "absolutevalue", "absolute value" -> 1;
+            
+          
+            case "abs", "absolute", "absolutevalue", "absolute value" -> Math.abs(a);
+            
             case "even" -> 1;
             case "odd" -> 1;
             case "positive" -> 1;
@@ -30,5 +34,4 @@ public class CalculatorOperation {
     public static double add(double a, double b) {
         return a + a;
     }
-
 }
