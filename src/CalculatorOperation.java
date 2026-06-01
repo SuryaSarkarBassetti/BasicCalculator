@@ -1,7 +1,7 @@
 public class CalculatorOperation {
     public static double calculate(double a, double b, String op) {
         return switch (op.toLowerCase()) {
-            case "+", "add" -> add(a, b);
+            //case "+", "add" -> add(a, b);
             case "-", "subtract" -> 1;
             case "*", "multiply" -> 1;
             case "/", "divide" -> 1;
@@ -27,16 +27,15 @@ public class CalculatorOperation {
         };
     }
 
-    public static double add(double a, double b) {
-        return a + a;
-    }
+    //public static double add(double a, double b) {
+    //    return a + b;
+    //}
 
-    public static double subtraction(double a, double b) {
-        return a - b;
-    }
+    //public static double subtraction(double a, double b) {
+    //    return a - b;
+    //}
      
      public static double percentage(double a, double b) {
         return (a / b) * 100;
-        // system.out.println(a + " is " + percentage(a, b) + "% of " + b);
-    }
+}
 }
