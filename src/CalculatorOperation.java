@@ -38,7 +38,11 @@ public class CalculatorOperation {
     // Subtraction Between Two Number
     public static double subtraction(double a, double b) {
         return a - b;
- main
+ 
+    }
+    // Avarage Between Two Number
+     public static double avarage(double a, double b) {
+        return (a + b)/2;
     }
 
     //Implementation of ODD Number Checker
@@ -50,3 +54,4 @@ public class CalculatorOperation {
         }
     }
 }
+
