@@ -1,6 +1,9 @@
 public class CalculatorOperation {
+
     public static double calculate(double a, double b, String op) {
         return switch (op.toLowerCase()) {
+            case "+", "add" -> add(a, b);
+            case "-", "subtract" -> 1;
             case "+", "add" -> add(a, b);
             case "-", "subtract" -> subtraction;
             case "*", "multiply" -> 1;
@@ -9,16 +12,17 @@ public class CalculatorOperation {
             case "avg", "average" -> 1;
             case "max", "maximum" -> 1;
             case "min", "minimum" -> 1;
-            case "percentage", "percent" -> 1 ;
+            case "percentage", "percent" -> 1;
             default -> throw new IllegalArgumentException("Unknown operation. Use add, subtract, multiply, divide, modulus, average, maximum, minimum, or percentage.");
         };
     }
 
-    public static double calculate(double a, String op) {
+    public static double calculate(double a, double b, String op) {
+    public static double calculate(double number, String op) {
         return switch (op.toLowerCase()) {
-            case "square" -> 1;
+            case "square" -> square(a);
             case "cube" -> 1;
-            case "abs", "absolute", "absolutevalue", "absolute value" -> 1;
+            case "abs", "absolute", "absolutevalue", "absolute value" -> absoluteValue(number);
             case "even" -> 1;
             case "odd" -> 1;
             case "positive" -> 1;
@@ -27,10 +31,32 @@ public class CalculatorOperation {
         };
     }
 
+    //Add Method
+    public static double add(double a, double b) {
+        return a + b;
+    }
+
+    //Subtract Method
+    public static double subtraction(double a, double b) {
+        return a - b;
+    }
+    
+    //Percentage Method
+     public static double percentage(double a, double b) {
+        return (a / b) * 100;
     public static double add(double a, double b) {
         return a + a;
     }
 
+    // This Is Square Method
+    public static double square(double a) {
+        return a * a;
+    }
+
+    public static double absoluteValue(double number) {
+        return Math.abs(number);
+    }
+}
     
     public static double division(double a, double b) {
         return a / b;
@@ -38,8 +64,16 @@ public class CalculatorOperation {
     // Subtraction Between Two Number
     public static double subtraction(double a, double b) {
         return a - b;
- main
+ 
     }
+    // Avarage Between Two Number
+     public static double avarage(double a, double b) {
+        return (a + b)/2;
+    }
+ main
+    }//impiliment multiply
+    public static double multiply(double a, double b) {
+        return a * b;
 
     //Implementation of ODD Number Checker
     public static boolean checkOddNum(int num){
@@ -54,5 +88,11 @@ public class CalculatorOperation {
     public static boolean CheckNumberisNegative(double number) {
         return number < 0;
     }
+ //Implementation of EVEN Number Checker
+
+ public static boolean isEven(double a) {
+        return (a % 1 == 0) && ((int) a % 2 == 0);
+    }
+}
 
 }
