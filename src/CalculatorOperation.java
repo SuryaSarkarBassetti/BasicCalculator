@@ -50,6 +50,7 @@ public class CalculatorOperation {
         }
     }
 
+// Implementation of Negative Number Checker
     public static boolean CheckNumberisNegative(double number) {
         return number < 0;
     }
