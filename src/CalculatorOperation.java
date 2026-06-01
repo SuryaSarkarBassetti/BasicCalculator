@@ -30,6 +30,8 @@ public class CalculatorOperation {
     public static double add(double a, double b) {
         return a + a;
     }
+
+    // This Is Square Method
     public static double square(double a) {
         return a * a;
     }
