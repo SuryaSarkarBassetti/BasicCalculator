@@ -3,6 +3,8 @@ public class CalculatorOperation {
     public static double calculate(double a, double b, String op) {
         return switch (op.toLowerCase()) {
             case "+", "add" -> add(a, b);
+            case "-", "subtract" -> 1;
+            case "+", "add" -> add(a, b);
             case "-", "subtract" -> subtraction;
             case "*", "multiply" -> 1;
             case "/", "divide" -> 1;
@@ -28,6 +30,19 @@ public class CalculatorOperation {
         };
     }
 
+    //Add Method
+    public static double add(double a, double b) {
+        return a + b;
+    }
+
+    //Subtract Method
+    public static double subtraction(double a, double b) {
+        return a - b;
+    }
+    
+    //Percentage Method
+     public static double percentage(double a, double b) {
+        return (a / b) * 100;
     public static double add(double a, double b) {
         return a + a;
     }
@@ -54,4 +69,5 @@ public class CalculatorOperation {
             return false;
         }
     }
+}
 }
