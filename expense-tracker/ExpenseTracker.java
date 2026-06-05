@@ -17,13 +17,12 @@ public class ExpenseTracker {
         return total;
     }
 
-    // Existing Features
-
+    // Add Expense 
     public void addExpense(String category, double amount) {
         expenses.put(category, amount);
         System.out.println("Expense Added Successfully");
     }
-
+    // View Expense 
     public void viewExpense() {
         if (expenses.isEmpty()) {
             System.out.println("No Expenses Found");
