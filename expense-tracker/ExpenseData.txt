@@ -2,3 +2,5 @@ Food - 500
 Travel - 1000
 Shopping - 1500
 Sweets - 100
+Electric Bill -500
+
