@@ -46,7 +46,7 @@ public class ExpenseTracker {
         }
     }
 
- 
+ // Expense Report Feature is added to provide users a summary of their expenses, including total amount spent and breakdown by category.
     public String ExpenseReport() {
         if (expense == null || expense.isEmpty()) {
             return "No expenses recorded yet.";
@@ -55,7 +55,8 @@ public class ExpenseTracker {
         Map<String, Double> categoryTotals = new HashMap<>();
         double totalAmount = 0.0;
 
-        for (Expense entry : expense) {
+        for (int i = 0; i < expense.size(); i++) {
+            Expense entry = expense.get(i);
             double amount = entry.getAmount();
             String category = entry.getCategory();
             categoryTotals.put(category, categoryTotals.getOrDefault(category, 0.0) + amount);
