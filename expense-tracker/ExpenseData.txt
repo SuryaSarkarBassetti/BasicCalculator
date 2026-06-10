@@ -1,4 +1,8 @@
 Food - 500
 Travel - 1000
 Shopping - 1500
-drinks-2000
+<<<<<<< HEAD
+drinks-20000
+=======
+Lunch - 5000
+>>>>>>> 5e9ee8aa0803441c957a352225c9e372ae97cd8d
