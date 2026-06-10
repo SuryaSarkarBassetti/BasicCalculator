@@ -6,7 +6,7 @@ import java.util.Map;
 public class ExpenseTracker {
 
     Map<String, Double> expenses;
-    private List<Expense> expense;
+    public String note;
 
     public static void main(String[] args) {
         System.out.println("Expense Tracker Application");
@@ -39,6 +39,11 @@ public class ExpenseTracker {
                     "Category: " + expense.getKey() +
                             " | Amount: " + expense.getValue());
         }
+    }
+    //Expence Notes
+    public void ExpenseNotes(String notestrString) {
+        this.note = notestrString;
+        System.out.println("Note Added Successfully");
     }
 // Highest Expense
 public void showHighestExpense() {
