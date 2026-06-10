@@ -36,7 +36,6 @@ public class ExpenseTracker {
     }
 // Highest Expense
 public void showHighestExpense() {
-
     if (expenses.isEmpty()) {
         System.out.println("No Expenses Found");
         return;
