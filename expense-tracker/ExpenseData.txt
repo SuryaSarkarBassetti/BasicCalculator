@@ -1,4 +1,5 @@
 Food - 500
 Travel - 1000
 Shopping - 1500
-Lunch - 5000
+Electric Bill -500
+
