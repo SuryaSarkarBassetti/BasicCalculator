@@ -8,11 +8,6 @@ public class ExpenseTracker {
     Map<String, Double> expenses;
     private List<Expense> expense;
 
-    public ExpenseTracker() {
-        this.expenses = new HashMap<>();
-        this.expense = new ArrayList<>();
-    }
-
     public static void main(String[] args) {
         System.out.println("Expense Tracker Application");
     }
@@ -28,7 +23,7 @@ public class ExpenseTracker {
     // Add Expense
     public void addExpense(String category, double amount) {
         expenses.put(category, amount);
-        expense.add(new Expense(category, amount, "Added from tracker"));
+        
         System.out.println("Expense Added Successfully");
     }
 
