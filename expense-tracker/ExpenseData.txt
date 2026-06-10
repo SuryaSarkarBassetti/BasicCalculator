@@ -3,4 +3,7 @@ Travel - 1000
 Shopping - 1500
 drinks-20000
 Lunch - 5000
+HealthCare - 3000
+Sweets - 100
+Electric Bill -500
 
