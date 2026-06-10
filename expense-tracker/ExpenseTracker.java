@@ -36,8 +36,8 @@ public class ExpenseTracker {
         }
     }
     //Expence Notes
-    public void ExpenseNotes(String note) {
-        this.note = note;
+    public void ExpenseNotes(String notestrString) {
+        this.note = notestrString;
         System.out.println("Note Added Successfully");
     }
 
