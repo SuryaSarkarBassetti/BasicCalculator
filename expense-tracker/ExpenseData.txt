@@ -1,3 +1,4 @@
 Food - 500
 Travel - 1000
 Shopping - 1500
+drinks-2000
