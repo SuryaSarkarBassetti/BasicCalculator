@@ -2,5 +2,6 @@ Food - 500
 Travel - 1000
 Shopping - 1500
 HealthCare - 3000
+Sweets - 100
 Electric Bill -500
 
