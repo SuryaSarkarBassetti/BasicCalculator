@@ -3,7 +3,7 @@ import java.util.Map;
 public class ExpenseTracker {
 
     Map<String, Double> expenses;
-    private String note;
+    public String note;
 
     public static void main(String[] args) {
         System.out.println("Expense Tracker Application");
