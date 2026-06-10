@@ -34,5 +34,31 @@ public class ExpenseTracker {
                             " | Amount: " + expense.getValue());
         }
     }
+// Highest Expense
+public void showHighestExpense() {
+
+    if (expenses.isEmpty()) {
+        System.out.println("No Expenses Found");
+        return;
+    }
+
+    String highestCategory = "";
+    double highestAmount = Double.MIN_VALUE;
+
+    for (Map.Entry<String, Double> expense : expenses.entrySet()) {
+
+        if (expense.getValue() > highestAmount) {
+
+            highestAmount = expense.getValue();
+
+            highestCategory = expense.getKey();
+
+        }
+    }
+
+    System.out.println("Highest Expense:");
+    System.out.println("Category: " + highestCategory);
+    System.out.println("Amount: " + highestAmount);
+}
 
 }
