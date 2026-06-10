@@ -40,9 +40,10 @@ public class Expense {
         return String.format("Category: %s | Amount: %.2f | Note: %s | Date: %s",
                 category, amount, note.isEmpty() ? "(none)" : note, getFormattedDate());
     }
-public class LowestExpense {
-
-    public static double getLowestExpense(List<Double> expenses)
+    // add LowestExpense 
+public class LowestExpense 
+{
+ public static double getLowestExpense(List<Double> expenses)
      {
         return Collections.min(expenses);
     }
