@@ -22,11 +22,7 @@ public class ExpenseTracker {
 
     // Add Expense
     public void addExpense(String category, double amount) {
-
-        if(!category.isValid(category)){
-            System.out.println("Invalid Category");
-            return;
-        }
+        
         expenses.put(category, amount);
         
         System.out.println("Expense Added Successfully");
@@ -45,6 +41,20 @@ public class ExpenseTracker {
                             " | Amount: " + expense.getValue());
         }
     }
+    //Add Category Validation
+    private static final set<string>VALID_CATEGORIES = set.of(
+        "Food",
+        "Travel",
+        "Shopping",
+        "Medical",
+        "Entertainment",
+        "Other"
+    );
+    public static boolean isValidCategory(String category){
+        return VALID_CATEGORIES.contains(category);
+    }
+
+
     //Expence Notes
     public void ExpenseNotes(String notestrString) {
         this.note = notestrString;
