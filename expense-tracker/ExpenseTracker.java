@@ -94,7 +94,6 @@ public void showHighestExpense() {
         report.append("\n==================================");
         return report.toString();
     }
-
 // Expense Search by Category
 public void ExpenseSearch(String category) {
     if (expenses.containsKey(category)) {
