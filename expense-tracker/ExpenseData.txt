@@ -4,7 +4,7 @@ Shopping - 1500
 HealthCare - 3000
 Sweets - 100
 Electric Bill -500
+Dress - 12000000000
 water -800
-
 Drink - 100
 My New - 200
