@@ -5,3 +5,4 @@ HealthCare - 3000
 Sweets - 100
 Electric Bill -500
 Drink - 100
+My New - 200
