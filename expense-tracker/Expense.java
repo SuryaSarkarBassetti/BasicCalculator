@@ -49,4 +49,34 @@ public class LowestExpense
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// add Expense Count
+public class ExpenseCount {
+
+    public static int getExpenseCount(List<?> expenses) {
+        return expenses.size();
+    }
+}
+
+
 }
