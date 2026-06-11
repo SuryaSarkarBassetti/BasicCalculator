@@ -48,5 +48,13 @@ public class LowestExpense
         return Collections.min(expenses);
     }
 }
+    // add Expense Count
+public class ExpenseCount {
+
+    public static int getExpenseCount(List<?> expenses) {
+        return expenses.size();
+    }
+}
+
 
 }
