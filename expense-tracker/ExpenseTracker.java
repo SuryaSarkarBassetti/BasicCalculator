@@ -95,3 +95,34 @@ public void showHighestExpense() {
         return report.toString();
     }
 }
+//Add a feature Expense filter
+public void filterExpense(String category, double minAmount, double maxAmount) {
+    if (expenses == null || expenses.isEmpty()) {
+        System.out.println("No Expenses Found");
+        return;
+    }
+
+    boolean found = false;
+
+    for (Map.Entry<String, Double> expense : expenses.entrySet()) {
+        String expenseCategory = expense.getKey();
+        double amount = expense.getValue();
+
+        boolean categoryMatch = (category == null || category.isEmpty())
+                || expenseCategory.equalsIgnoreCase(category);
+
+        boolean amountMatch = amount >= minAmount && amount <= maxAmount;
+
+        if (categoryMatch && amountMatch) {
+            System.out.println(
+                    "Category: " + expenseCategory +
+                    " | Amount: " + amount);
+            found = true;
+        }
+    }
+
+    if (!found) {
+        System.out.println("No matching expenses found.");
+    }
+}
+ 
