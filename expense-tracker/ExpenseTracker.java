@@ -22,6 +22,11 @@ public class ExpenseTracker {
 
     // Add Expense
     public void addExpense(String category, double amount) {
+
+        if(!category.isValid(category)){
+            System.out.println("Invalid Category");
+            return;
+        }
         expenses.put(category, amount);
         
         System.out.println("Expense Added Successfully");
