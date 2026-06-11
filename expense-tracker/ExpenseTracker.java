@@ -98,6 +98,7 @@ public void showHighestExpense() {
     public void addotherexpenses(double amount) {
         expenses.put("Other", amount);
         System.out.println("Other Expense Added Successfully");
+    }
 // Expense Search by Category
 public void ExpenseSearch(String category) {
     if (expenses.containsKey(category)) {
