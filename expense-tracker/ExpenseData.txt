@@ -6,3 +6,4 @@ Sweets - 100
 Electric Bill -500
 water -800
 
+My New - 200
