@@ -22,6 +22,7 @@ public class ExpenseTracker {
 
     // Add Expense
     public void addExpense(String category, double amount) {
+        
         expenses.put(category, amount);
         
         System.out.println("Expense Added Successfully");
@@ -39,6 +40,18 @@ public class ExpenseTracker {
                     "Category: " + expense.getKey() +
                             " | Amount: " + expense.getValue());
         }
+    }
+    //Add Category Validation
+    private static final set<string>VALID_CATEGORIES = set.of(
+        "Food",
+        "Travel",
+        "Shopping",
+        "Medical",
+        "Entertainment",
+        "Other"
+    );
+    public static boolean isValidCategory(String category){
+        return VALID_CATEGORIES.contains(category);
     }
     //Expence Notes
     public void ExpenseNotes(String notestrString) {
