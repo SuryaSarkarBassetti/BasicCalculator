@@ -53,8 +53,6 @@ public class ExpenseTracker {
     public static boolean isValidCategory(String category){
         return VALID_CATEGORIES.contains(category);
     }
-
-
     //Expence Notes
     public void ExpenseNotes(String notestrString) {
         this.note = notestrString;
