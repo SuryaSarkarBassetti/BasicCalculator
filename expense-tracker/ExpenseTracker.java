@@ -108,6 +108,20 @@ public void ExpenseSearch(String category) {
     }
 }
 }
+//Feature implimented "Add Entertainment Expense"
+public class AddEntertainmentExpense {
+    private double expense = 0;
+
+    public void addEntertainmentExpense(double amt) {
+        expense += amt;
+    }
+
+    public double getEntertainmentExpense() {
+        return expense;
+    }
+}
+/*----------------------------------------------------------- */
+
 //Add a feature Expense filter
 public void filterExpense(String category, double minAmount, double maxAmount) {
     if (expenses == null || expenses.isEmpty()) {
