@@ -127,7 +127,6 @@ public void ExpenseSearch(String category) {
         System.out.println("Total expenses for " +itemName+ " is :" +totalPrice);
     }
 }
-}
 //Feature implimented "Add Entertainment Expense"
 public class AddEntertainmentExpense {
     private double expense = 0;
