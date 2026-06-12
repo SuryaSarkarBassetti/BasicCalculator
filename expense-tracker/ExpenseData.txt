@@ -11,4 +11,5 @@ Dress - 12000000000
 water -800
 Drink - 100
 My New - 200
+Smartphone - 20000
 Fer Der -
