@@ -21,6 +21,11 @@ public class ExpenseTracker {
         expenses.put(category, amount);
         System.out.println("Expense Added Successfully");
     }
+    public void addTravelExpense(double amount){
+            public double travelExpense=0;
+            travelExpense+=amount;
+            return travelExpense;
+        }
     // View Expense
     public void viewExpense() {
         if (expenses.isEmpty()) {
