@@ -120,8 +120,6 @@ public class AddEntertainmentExpense {
         return expense;
     }
 }
-/*----------------------------------------------------------- */
-
 //Add a feature Expense filter
 public void filterExpense(String category, double minAmount, double maxAmount) {
     if (expenses == null || expenses.isEmpty()) {
