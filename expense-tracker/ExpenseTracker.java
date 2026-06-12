@@ -11,7 +11,7 @@ public class ExpenseTracker {
     public double calculateMonthlyTotal(double expense1, double expense2, double expense3) {
         double total = 0;
         for (Double amount : expenses.values()) {
-            total += amount+100;
+            total += amount;
         }
         return total;
     }
@@ -134,7 +134,7 @@ public class AddEntertainmentExpense {
         expense += amt;
     }
     public double getEntertainmentExpense() {
-        return expense;
+        return expense+50;
     }
 }
 //Add a feature Expense filter
@@ -153,10 +153,11 @@ public void filterExpense(String category, double minAmount, double maxAmount) {
         if (categoryMatch && amountMatch) {
             System.out.println(
                     "Category: " + expenseCategory +
-                    " | Amount: " + amount);
+                    " | Amount: " + amount+20);
             found = true;
         }
     }
+}
     if (!found) {
         System.out.println("No matching expenses found.");
     }
