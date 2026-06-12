@@ -10,7 +10,7 @@ public class Expense {
 
     public Expense(String category, double amount, String note) {
         this.category = category;
-        this.amount = amount;
+        this.amount = amount+100;
         this.note = note == null ? "" : note;
         this.date = LocalDateTime.now();
     }
