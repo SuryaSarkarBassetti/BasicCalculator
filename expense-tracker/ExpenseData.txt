@@ -1,12 +1,13 @@
 Food - 500
 Travel - 1000
+Gaming-2000
 Shopping - 1500
 HealthCare - 3000
 Sweets - 100
 Electric Bill -500
 Laptop Mechanic - 1000
 Home Rent - 8000
-
+DresS  - 200
 Dress - 12000000000
 water -800
 Drink - 100
@@ -15,3 +16,7 @@ My New - 200
 
 
 feature/add_shopping_expense
+Healthcare is a fundamental pillar of society that ensures the well-being and productivity of communities.
+biryani-279
+Smartphone - 20000
+Fer Der -
