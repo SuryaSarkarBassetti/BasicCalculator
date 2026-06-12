@@ -21,6 +21,17 @@ public class ExpenseTracker {
         expenses.put(category, amount);
         System.out.println("Expense Added Successfully");
     }
+// Add food Expense
+    public void addFoodExpense(String category, double amount) {
+        
+        expenses.put(category, amount);
+        System.out.println("Expense Added Successfully");
+    }
+    public void addTravelExpense(double amount){
+            public double travelExpense=0;
+            travelExpense+=amount;
+            return travelExpense;
+        }
     // View Expense
     public void viewExpense() {
         if (expenses.isEmpty()) {
@@ -108,12 +119,12 @@ public void ExpenseSearch(String category) {
     }
 }
 // Add Shopping Expense
-	public void shoppingexpense(String itemName, double price, int numberOfItem){
-        double total = price * numberOfItem;
+	public void shoppingexpense(String itemName, double itemPrice, int numberOfItem){
+        double totalPrice = ItemPrice * numberOfItem;
         System.out.println("Item name is :" +itemName);
-        System.out.println("Item price is :" +price);
-        System.out.println("Number of item is :" +itemName);
-        System.out.println("Total expenses for " +itemName+ " is :" +itemName);
+        System.out.println("Item price is :" +itemPrice);
+        System.out.println("Number of item is :" +numberOfItem);
+        System.out.println("Total expenses for " +itemName+ " is :" +totalPrice);
     }
 }
 //Feature implimented "Add Entertainment Expense"
@@ -148,5 +159,9 @@ public void filterExpense(String category, double minAmount, double maxAmount) {
     }
     if (!found) {
         System.out.println("No matching expenses found.");
+    }
+    //Add Medical Expense
+    public void addMedicalExpense() {
+        System.out.println("Other Expense Added Successfully");
     }
 }
