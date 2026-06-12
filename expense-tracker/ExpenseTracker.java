@@ -107,6 +107,15 @@ public void ExpenseSearch(String category) {
         System.out.println("Category Not Found: " + category);
     }
 }
+// Add Shopping Expense
+	public void shoppingexpense(String itemName, double itemPrice, int numberOfItem){
+        double totalPrice = ItemPrice * numberOfItem;
+        System.out.println("Item name is :" +itemName);
+        System.out.println("Item price is :" +itemPrice);
+        System.out.println("Number of item is :" +numberOfItem);
+        System.out.println("Total expenses for " +itemName+ " is :" +totalPrice);
+    }
+}
 }
 //Feature implimented "Add Entertainment Expense"
 public class AddEntertainmentExpense {
