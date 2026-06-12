@@ -21,6 +21,13 @@ public class ExpenseTracker {
         expenses.put(category, amount);
         System.out.println("Expense Added Successfully");
     }
+// Add food Expense
+    public void addFoodExpense(String category, double amount) {
+        
+        expenses.put(category, amount);
+        System.out.println("Expense Added Successfully");
+    }
+
     // View Expense
     public void viewExpense() {
         if (expenses.isEmpty()) {
