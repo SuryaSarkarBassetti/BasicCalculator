@@ -111,11 +111,9 @@ public void ExpenseSearch(String category) {
 //Feature implimented "Add Entertainment Expense"
 public class AddEntertainmentExpense {
     private double expense = 0;
-
     public void addEntertainmentExpense(double amt) {
         expense += amt;
     }
-
     public double getEntertainmentExpense() {
         return expense;
     }
