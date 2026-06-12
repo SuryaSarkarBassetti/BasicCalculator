@@ -6,7 +6,7 @@ Sweets - 100
 Electric Bill -500
 Laptop Mechanic - 1000
 Home Rent - 8000
-
+Shopping expense - 2000
 Dress - 12000000000
 water -800
 Drink - 100
