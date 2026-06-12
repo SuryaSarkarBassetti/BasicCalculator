@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyRepo\\BasicCalculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MyRepo\\BasicCalculator\\expense-tracker\\ExpenseTracker.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:expense-tracker\\ExpenseTracker.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MyRepo\\BasicCalculator\\expense-tracker\\Category.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:expense-tracker\\Category.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MyRepo\\BasicCalculator\\expense-tracker\\Config.properties||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:expense-tracker\\Config.properties||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MyRepo\\BasicCalculator\\expense-tracker\\Expense.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:expense-tracker\\Expense.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MyRepo\\BasicCalculator\\expense-tracker\\ExpenseData.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:expense-tracker\\ExpenseData.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.java",
+              "DocumentMoniker": "D:\\MyRepo\\BasicCalculator\\expense-tracker\\Category.java",
+              "RelativeDocumentMoniker": "expense-tracker\\Category.java",
+              "ToolTip": "D:\\MyRepo\\BasicCalculator\\expense-tracker\\Category.java",
+              "RelativeToolTip": "expense-tracker\\Category.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2026-06-12T07:31:35.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Config.properties",
+              "DocumentMoniker": "D:\\MyRepo\\BasicCalculator\\expense-tracker\\Config.properties",
+              "RelativeDocumentMoniker": "expense-tracker\\Config.properties",
+              "ToolTip": "D:\\MyRepo\\BasicCalculator\\expense-tracker\\Config.properties",
+              "RelativeToolTip": "expense-tracker\\Config.properties",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-12T07:31:30.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Expense.java",
+              "DocumentMoniker": "D:\\MyRepo\\BasicCalculator\\expense-tracker\\Expense.java",
+              "RelativeDocumentMoniker": "expense-tracker\\Expense.java",
+              "ToolTip": "D:\\MyRepo\\BasicCalculator\\expense-tracker\\Expense.java",
+              "RelativeToolTip": "expense-tracker\\Expense.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2026-06-12T07:31:22.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExpenseData.txt",
+              "DocumentMoniker": "D:\\MyRepo\\BasicCalculator\\expense-tracker\\ExpenseData.txt",
+              "RelativeDocumentMoniker": "expense-tracker\\ExpenseData.txt",
+              "ToolTip": "D:\\MyRepo\\BasicCalculator\\expense-tracker\\ExpenseData.txt",
+              "RelativeToolTip": "expense-tracker\\ExpenseData.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-06-12T07:31:17.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExpenseTracker.java",
+              "DocumentMoniker": "D:\\MyRepo\\BasicCalculator\\expense-tracker\\ExpenseTracker.java",
+              "RelativeDocumentMoniker": "expense-tracker\\ExpenseTracker.java",
+              "ToolTip": "D:\\MyRepo\\BasicCalculator\\expense-tracker\\ExpenseTracker.java",
+              "RelativeToolTip": "expense-tracker\\ExpenseTracker.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2026-06-12T07:30:32.363Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
