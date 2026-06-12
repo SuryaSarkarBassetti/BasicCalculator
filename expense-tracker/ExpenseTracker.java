@@ -29,7 +29,7 @@ public class ExpenseTracker {
     }
     public void addTravelExpense(double amount){
             public double travelExpense=0;
-            travelExpense+=amount;
+            travelExpense+=amount+10;
             return travelExpense;
         }
     // View Expense
