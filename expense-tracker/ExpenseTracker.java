@@ -142,7 +142,6 @@ public void filterExpense(String category, double minAmount, double maxAmount) {
         System.out.println("No matching expenses found.");
     }
     //Add Medical Expense
-
     public void addMedicalExpense() {
         System.out.println("Other Expense Added Successfully");
     }
