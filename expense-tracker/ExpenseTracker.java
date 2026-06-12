@@ -11,7 +11,7 @@ public class ExpenseTracker {
     public double calculateMonthlyTotal(double expense1, double expense2, double expense3) {
         double total = 0;
         for (Double amount : expenses.values()) {
-            total += amount;
+            total += amount+100;
         }
         return total;
     }
