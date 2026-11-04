@@ -73,6 +73,17 @@ public class CalculatorOperation {
     public static double multiply(double a, double b) {
         return a * b;
     }
+   public static int sum100(int[] numbers) {
+        if (numbers == null) {
+            return 0;
+        }
+        int sum = 0;
+        int limit = Math.min(numbers.length, 100);
+        for (int i = 0; i < limit; i++) {
+            sum += numbers[i];
+        }
+        return sum;
+    }
     //Test Code
     //No Code Test
     // Implementation of ODD Number Checker
