@@ -64,7 +64,7 @@ public class CalculatorOperation {
     public static double multiply(double a, double b) {
         return a * b;
     }
-   public static int sumFirst100(int[] numbers) {
+   public static int sum100(int[] numbers) {
         if (numbers == null) {
             return 0;
         }
