@@ -82,4 +82,13 @@ public class CalculatorOperation {
             return false;
         }
     }
+    // Method to calculate the sum of the first 100 numbers (1 to 100) using a loop
+    public static double sumFirst100Numbers() {
+    double sum = 0;
+    for (int i = 1; i <= 100; i++) {
+        sum += i;
+    }
+    return sum;
+}
+
 }
