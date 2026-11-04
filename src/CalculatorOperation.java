@@ -1,5 +1,14 @@
 public class CalculatorOperation {
 
+    public static int sumArray(int[] numbers) {
+        if (numbers == null)
+            return 0;
+        int sum = 0;
+        int limit = Math.min(numbers.length, 100);
+        for (int i = 0; i < limit; i++) 
+             sum += numbers[i];
+        return sum;
+    }
     public static double calculate(double a, double b, String op) {
         return switch (op.toLowerCase()) {
             case "+", "add" -> add(a, b);
