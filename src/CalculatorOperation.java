@@ -64,8 +64,7 @@ public class CalculatorOperation {
     public static double multiply(double a, double b) {
         return a * b;
     }
-    public class ArraySum {
-    public static int sumFirst100(int[] numbers) {
+   public static int sumFirst100(int[] numbers) {
         if (numbers == null) {
             return 0;
         }
@@ -76,15 +75,6 @@ public class CalculatorOperation {
         }
         return sum;
     }
-    public static void main(String[] args) {
-        int[] data = new int[150];
-        // Populate sample data (1 to 150)
-        for (int i = 0; i < data.length; i++) {
-            data[i] = i + 1;
-        }
-        System.out.println("Sum of first 100 elements: " + sumFirst100(data));
-    }
-}
     // Implementation of ODD Number Checker
     public static boolean checkOddNum(int num) {
         if (num % 2 != 0) {
