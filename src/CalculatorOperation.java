@@ -73,7 +73,8 @@ public class CalculatorOperation {
     public static double multiply(double a, double b) {
         return a * b;
     }
-
+    //Test Code
+    //No Code Test
     // Implementation of ODD Number Checker
     public static boolean checkOddNum(int num) {
         if (num % 2 != 0) {
