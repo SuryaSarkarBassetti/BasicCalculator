@@ -1,5 +1,14 @@
 public class CalculatorOperation {
 
+    public static int sumArray(int[] numbers) {
+        if (numbers == null)
+            return 0;
+        int sum = 0;
+        int limit = Math.min(numbers.length, 100);
+        for (int i = 0; i < limit; i++) 
+             sum += numbers[i];
+        return sum;
+    }
     public static double calculate(double a, double b, String op) {
         return switch (op.toLowerCase()) {
             case "+", "add" -> add(a, b);
@@ -75,6 +84,8 @@ public class CalculatorOperation {
         }
         return sum;
     }
+    //Test Code
+    //No Code Test
     // Implementation of ODD Number Checker
     public static boolean checkOddNum(int num) {
         if (num % 2 != 0) {
@@ -83,4 +94,5 @@ public class CalculatorOperation {
             return false;
         }
     }
+    //New Code Here
 }
