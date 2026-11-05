@@ -95,4 +95,19 @@ public class CalculatorOperation {
         }
     }
     //New Code Here
+    public static int sum200(int[] numbers) {
+        if (numbers == null || numbers.length == 0) {
+            return 0;
+        }
+
+        int sum = 0;
+        int index = 0;
+        int limit = Math.min(numbers.length, 200);
+
+        while (index < limit) {
+            sum += numbers[index++];
+        }
+
+        return sum;
+    }
 }
