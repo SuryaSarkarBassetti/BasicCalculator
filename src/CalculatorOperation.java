@@ -95,6 +95,21 @@ public class CalculatorOperation {
         }
     }
     //New Code Here
+    public static int multiply200(int[] numbers) {
+        if (numbers == null || numbers.length == 0) {
+            return 0;
+        }
+
+        int mul = 1;
+        int index = 0;
+        int limit = Math.min(numbers.length, 200);
+
+        while (index < limit) {
+            mul *= numbers[index++];
+        }
+
+        return mul;
+    }
     //No Code to Write
     //Thanks For Code
 }
